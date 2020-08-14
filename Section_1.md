@@ -17,7 +17,7 @@
 - Останавливаем все запущенные контейнеры **docker kill $(docker ps -q)**.
 - Удаляем все остановленные контейнеры **docker rm $(docker ps -a -q)**.
 - Удаляем все образы **docker rmi $(docker images -q)**.
-11. **docker attach** - Присоединение локальных стандартных потоков ввода, вывода и ошибок к работающему контейнеру.
+11. **docker attach** - Присоединение к работающему контейнеру.
 12. **docker commit** - ``` docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]] ```  Создает новый образ из изменений контейнера.
 13. **docker images** - Выводит список образов. Если указать название REPOSITORY, например docker images python то выводит образ Python.
 
