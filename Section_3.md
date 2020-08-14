@@ -1,5 +1,5 @@
 ### Dockerfile
-> FROM hello_from_igor #Здесь указываем от куда 
+> FROM hello_from_igor #Здесь указываем откуда 
 
 > WORKDIR /test #Название рабочей директории
 
