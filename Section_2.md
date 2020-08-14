@@ -31,47 +31,47 @@
 
 1.Запустить контейнер Ubuntu с detached флагом.
 
-docker run –it –d ubuntu bash
+**docker run –it –d ubuntu bash**
 
 2.Найти запущенный контейнер в списке контейнеров.
 
-docker container ls
+**docker container ls**
 
 3.Подключиться к нему.
 
-docker container attach <id>
+**docker container attach <id>**
 
 4.Выйти из него командой exit (тем самым остановив контейнер).
 
-exit
+**exit**
 
 5.Снова найти контейнер в списке контейнеров.
 
-docker ps -a
+**docker ps -a**
 
 6.Запустить его.
 
-docker run –it ubuntu bash
+**docker run –it ubuntu bash**
 
 7.Подключиться к нему.
 
-docker container attach <id> 
+**docker container attach <id>** 
 
 8.Выйти из контейнера, не остановив его.
 
-Ctrl + P, Ctrl +Q
+**Ctrl + P, Ctrl +Q**
 
 9.Найти запущенный контейнер в списке.
 
-docker ps -a
+**docker ps -a**
 
 10.Остановить его.
 
-docker container stop <name>
+**docker container stop <name>**
 
 11.Удалить его из списка.
 
-docker rm ubuntu
+**docker rm ubuntu**
 
  
 p.s. все изменения внутри контейнера сохраняются, даже если остановить (exit) и потом заново запустить контейнер
