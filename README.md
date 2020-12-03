@@ -6,9 +6,9 @@
 ***
 - Раздел_1(Section_1) [Общий материал и термины](https://github.com/igor-QA/Docker_For_Beginners/blob/master/Section_1.md)
 ***
-- Раздел_2(Section_2) [Команды и материал после прохождения курса Docker от LearnQA.](master/Section_2.md)
+- Раздел_2(Section_2) [Команды и материал после прохождения курса Docker от LearnQA.](https://github.com/igor-QA/Docker_For_Beginners/blob/master/Section_2.md)
 ***
-- Раздел_3(Section_3) [Содержат примеры Docker file и Docker compose](master/Section_3.md)
+- Раздел_3(Section_3) [Содержат примеры Docker file и Docker compose](https://github.com/igor-QA/Docker_For_Beginners/blob/master/Section_3.md)
 ***
 
 
